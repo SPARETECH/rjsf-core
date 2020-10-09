@@ -1,3 +1,5 @@
+# THIS IS A FORK OF [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) CONTAINING [#1666](https://github.com/rjsf-team/react-jsonschema-form/pull/1666) AS SOON AS THIS LANDS WE CAN GO BACK TO USE THE OFFICIAL PACKAGE
+
 [![Build Status][build-shield]][build-url]
 [![npm][npm-shield]][npm-url]
 [![npm downloads][npm-dl-shield]][npm-dl-url]
@@ -27,8 +29,6 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-
-# THIS IS A FORK OF [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) CONTAINING [#1666](https://github.com/rjsf-team/react-jsonschema-form/pull/1666) AS SOON AS THIS LANDS WE CAN GO BACK TO USE THE OFFICIAL PACKAGE
 
 ## Table of Contents
 
