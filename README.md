@@ -28,6 +28,8 @@
 
 <!-- TABLE OF CONTENTS -->
 
+# THIS IS A FORK OF (react-jsonschema-form)[https://github.com/rjsf-team/react-jsonschema-form] CONTAINING (#1666)[https://github.com/rjsf-team/react-jsonschema-form/pull/1666] AS SOON AS THIS LANDS WE CAN GO BACK TO USE THE OFFICIAL PACKAGE
+
 ## Table of Contents
 
 - [About The Project](#about-the-project)
