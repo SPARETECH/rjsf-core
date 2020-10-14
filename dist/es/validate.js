@@ -18,8 +18,7 @@ function createAjvInstance() {
     allErrors: true,
     multipleOfPrecision: 8,
     schemaId: "auto",
-    unknownFormats: "ignore",
-    useDefaults: true
+    unknownFormats: "ignore"
   }); // add custom formats
 
   ajv.addFormat("data-url", /^data:([a-z]+\/[a-z0-9-+.]+)?;(?:name=(.*);)?base64,(.*)$/);
