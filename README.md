@@ -1,4 +1,8 @@
-# THIS IS A FORK OF [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) CONTAINING [#1666](https://github.com/rjsf-team/react-jsonschema-form/pull/1666) AS SOON AS THIS LANDS WE CAN GO BACK TO USE THE OFFICIAL PACKAGE
+# THIS IS A FORK OF [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) CONTAINING [#1666](https://github.com/rjsf-team/react-jsonschema-form/pull/1666). AS SOON AS THIS LANDS WE CAN GO BACK TO USE THE OFFICIAL PACKAGE.
+
+## Additional Change
+
+- [#1666](https://github.com/rjsf-team/react-jsonschema-form/pull/1666) uses the `useDefaults` options in `validate.js`. This is a breaking change for the general behavior of the form, but was used to fix the if/then/else behavior. Each if block is validated on its own and a property with an `undefined` value without being required, will always validate. Using `useDefaults` in combination with adding `"default": ""` to the if block properties will have the correct validation. 
 
 [![Build Status][build-shield]][build-url]
 [![npm][npm-shield]][npm-url]
